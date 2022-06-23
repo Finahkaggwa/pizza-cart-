@@ -1,0 +1,152 @@
+body {
+    background-color: lemonchiffon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Contact_format {
+    display: flex;
+}
+
+@media (min-width: 760px) {
+    body {
+        background-color: lightsalmon;
+    }
+
+    .Pizzas_format {
+        display: flex;
+    }
+}
+
+.Pizza {
+    border: 1px solid #073B4C;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.small-pizza {
+    background-color: #EF476F;
+    flex: 1;
+}
+
+.medium-pizza {
+    background-color: #06D6A0;
+    flex: 1;
+}
+
+.large-pizza {
+    background-color: #FFD166;
+    flex: 1.5;
+}
+
+.contacts-us {
+    background-color: #118AB2;
+}
+
+.address_box {
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+
+/*
+table,
+th,
+td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 15px;
+    padding-right: 100px;
+    border-collapse: collapse;
+    margin: 2px;
+    
+}
+*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr,
+td {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.Header {
+    background-color: darkseagreen;
+    border-radius: 1em;
+}
+
+.sub-Header {
+    margin-left: 1em;
+    padding-top: 0.5em;
+}
+
+.sub-Header2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5em;
+    padding-bottom: 0.5em;
+}
+
+.cart-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart {
+    background-color: darkseagreen;
+    padding: 1em;
+    width: 100%;
+    border-radius: 1em;
+    /*margin-right: 100px;*/
+    margin-top: -7em;
+}
+
+@media(min-width: 760px) {
+    .cart {
+        width: 50%;
+    }
+}
+
+.buy {
+    /*width: 5em;*/
+    margin-bottom: 2em;
+}
+
+.btn {
+    padding: 1em 0em 1em 0em;
+    width: 5em;
+    background-color: #073B4C;
+    /*background-color: lightpink;*/
+    color: beige;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+.btn2 {
+    padding: 1em 0em 1em 0em;
+    width: 7em;
+    background-color: #073B4C;
+    color: beige;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+.message {
+    padding: 1em;
+    font-weight: bold;
+    background-color: beige;
+    margin-bottom: 1em;
+}
+
+.input {
+    padding: 1em;
+    border: 2px solid #073B4C;
+    border-radius: 5px;
+}
